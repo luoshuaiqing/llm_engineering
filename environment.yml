@@ -1,7 +1,7 @@
 name: llms
 channels:
   - conda-forge
-  - defaults
+  # - defaults # shuaiqing: I intentionally commented it out because otherwise I often hit a 429 error.
 dependencies:
   - python=3.11
   - pip
